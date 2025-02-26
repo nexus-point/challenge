@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "349df570-6b25-4baf-bf14-88834b8d969c",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40855631"
+	},
+	"item": [
+		{
+			"name": "ExchangeService",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\": 5,\r\n    \"inputCurrency\": \"AUD\",\r\n    \"outputCurrency\": \"USD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5004/ExchangeService",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5004",
+					"path": [
+						"ExchangeService"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
